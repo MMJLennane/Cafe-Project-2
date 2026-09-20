@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact | Café de la Crème</title>
+    <meta
+      name="description"
+      content="Get in touch with Café de la Crème for bookings, questions, and café enquiries in Mount Maunganui."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a href="index.html" class="brand" aria-label="Café de la Crème home">
+          <img src="assets/images/cafe_de_la_creme_1.png" alt="Café de la Crème logo" class="logo-image" />
+        </a>
+
+        <button class="nav-toggle" aria-label="Open menu" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <nav class="main-nav" aria-label="Main navigation">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="menu.html">Menu</a>
+          <a href="products.html">Products</a>
+          <a href="contact.html" class="active">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="page-hero contact-hero">
+        <div class="container narrow">
+          <p class="eyebrow">Get in touch</p>
+          <h1>We’d love to welcome you in.</h1>
+        </div>
+      </section>
+
+      <section class="container section-spacing contact-layout">
+        <div class="contact-card">
+          <h2>Visit the café</h2>
+          <ul class="contact-list">
+            <li><strong>Address:</strong> Marine Parade, Mount Maunganui</li>
+            <li><strong>Phone:</strong> (07) 555 0123</li>
+            <li><strong>Email:</strong> hello@cafedelacreme.co.nz</li>
+            <li><strong>Hours:</strong> Mon–Sun · 7:30am–3:30pm</li>
+          </ul>
+        </div>
+
+        <form class="contact-form" action="#" method="post">
+          <label>
+            Name
+            <input type="text" name="name" placeholder="Your name" />
+          </label>
+
+          <label>
+            Email
+            <input type="email" name="email" placeholder="Your email" />
+          </label>
+
+          <label>
+            Message
+            <textarea name="message" rows="5" placeholder="Tell us how we can help"></textarea>
+          </label>
+
+          <button type="submit" class="btn btn-primary">Send message</button>
+        </form>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-wrap">
+        <div>
+          <h3>Café de la Crème</h3>
+          <p>French-inspired café culture on the Mount.</p>
+        </div>
+
+        <div>
+          <h4>Visit</h4>
+          <p>Marine Parade, Mount Maunganui</p>
+        </div>
+
+        <div>
+          <h4>Open</h4>
+          <p>Mon–Sun · 7:30am–3:30pm</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
