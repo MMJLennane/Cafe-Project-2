@@ -22,7 +22,8 @@ html {
 body {
   margin: 0;
   font-family: "Inter", Arial, sans-serif;
-  background: var(--ivory);
+  background: linear-gradient(rgba(255, 250, 243, 0.75), rgba(255, 250, 243, 0.75)),
+    url("../images/Tay_Street_Cafe_Beach.jpeg") center / cover fixed no-repeat;
   color: var(--text);
   line-height: 1.6;
 }
@@ -120,9 +121,17 @@ p {
 
 .logo-image {
   display: block;
-  height: 52px;
+  height: 104px;
   width: auto;
-  max-width: 260px;
+  max-width: 520px;
+}
+
+.footer-logo {
+  display: block;
+  height: 104px;
+  width: auto;
+  max-width: 520px;
+  margin-bottom: 1rem;
 }
 
 .brand strong,
@@ -208,8 +217,8 @@ p {
 
 .hero {
   padding: 6rem 0 5rem;
-  background: linear-gradient(135deg, rgba(18, 43, 59, 0.84), rgba(29, 69, 50, 0.76)),
-    url("https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=1600&q=80") center/cover no-repeat;
+  background: linear-gradient(135deg, rgba(18, 43, 59, 0.75), rgba(29, 69, 50, 0.75)),
+    url("../images/Mount-Maunganui-New-Zealand.jpeg") center / cover no-repeat;
   color: #fff;
 }
 
@@ -334,25 +343,9 @@ p {
 }
 
 .item-image {
-  min-height: 220px;
-  background-size: cover;
-  background-position: center;
-}
-
-.image-one {
-  background-image: url("https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=1000&q=80");
-}
-
-.image-two {
-  background-image: url("https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=1000&q=80");
-}
-
-.image-three {
-  background-image: url("https://images.unsplash.com/photo-1541167760496-1628856ab772?auto=format&fit=crop&w=1000&q=80");
-}
-
-.image-four {
-  background-image: url("https://images.unsplash.com/photo-1511920170033-f8396924c348?auto=format&fit=crop&w=1000&q=80");
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
 }
 
 .item-copy {
@@ -372,7 +365,8 @@ p {
 
 .page-hero {
   padding: 5.5rem 0 4rem;
-  background: linear-gradient(135deg, rgba(18, 43, 59, 0.8), rgba(29, 69, 50, 0.7));
+  background: linear-gradient(135deg, rgba(18, 43, 59, 0.75), rgba(29, 69, 50, 0.75)),
+    url("../images/Mount-Maunganui-New-Zealand.jpeg") center / cover no-repeat;
   color: #fff;
 }
 
@@ -382,26 +376,18 @@ p {
 }
 
 .about-hero {
-  background-image: linear-gradient(135deg, rgba(18, 43, 59, 0.8), rgba(29, 69, 50, 0.7)), url("https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=1400&q=80");
-  background-size: cover;
   background-position: center;
 }
 
 .menu-hero {
-  background-image: linear-gradient(135deg, rgba(18, 43, 59, 0.8), rgba(29, 69, 50, 0.7)), url("https://images.unsplash.com/photo-1521017432531-fbd92d768814?auto=format&fit=crop&w=1400&q=80");
-  background-size: cover;
   background-position: center;
 }
 
 .products-hero {
-  background-image: linear-gradient(135deg, rgba(18, 43, 59, 0.8), rgba(29, 69, 50, 0.7)), url("https://images.unsplash.com/photo-1442512595331-e89e73853f31?auto=format&fit=crop&w=1400&q=80");
-  background-size: cover;
   background-position: center;
 }
 
 .contact-hero {
-  background-image: linear-gradient(135deg, rgba(18, 43, 59, 0.8), rgba(29, 69, 50, 0.7)), url("https://images.unsplash.com/photo-1521017432531-fbd92d768814?auto=format&fit=crop&w=1400&q=80");
-  background-size: cover;
   background-position: center;
 }
 

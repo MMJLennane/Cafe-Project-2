@@ -161,11 +161,8 @@ By having a dedicated celiac preparation station and a dog-friendly, weatherproo
 To ensure 100% safety for celiacs, the kitchen design will feature a dedicated gluten-free zone with its own hotplate, cutting boards, knives, and a separate toaster/fryer to completely eliminate cross-contamination.
 Celiac-Safe & Diabetic-Friendly (Low GI / Sugar-Free) Options
     • The Beachside Galette (GF / Low GI): A traditional savory French crêpe made from 100% buckwheat flour (naturally gluten-free and low-glycemic index). Filled with smoked chicken, spinach, and goat’s cheese.
-      
     • The Keto/Diabetic Croque "Bowl" (GF / Sugar-Free): A crustless, baked egg-and-cream custard bowl loaded with shaved ham, Gruyère cheese, and fresh nutmeg, served with a crisp side salad.
-      
     • The Mount Breakfast Skillet (GF): Chorizo, halloumi, spinach, and poached eggs cooked on the dedicated GF hotplate, served with a toasted gluten-free baguette slice.
-      
     • The "Crème" Diabetic Shake: A blended iced coffee or vanilla shake made with unsweetened almond milk, heavy cream, and a natural sugar substitute (like erythritol or stevia).
 
 🐾 The French "Chien" & Winter Comfort Experience
